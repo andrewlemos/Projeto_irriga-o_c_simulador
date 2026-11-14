@@ -1,0 +1,40 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Credenciais e segredos — NUNCA versionar
+.env
+.env.*
+!.env.example
+credentials/*
+!credentials/.gitkeep
+!credentials/README.md
+*.pem
+*.p12
+*firebase-adminsdk*.json
+*serviceAccount*.json
+serviceAccountKey.json
+projintegrador-4-firebase-adminsdk*.json
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs e temporários
+logs/
+*.log
+tmp/
+temp/
+.cache/
+
+# Build / cobertura
+coverage/
+dist/
+build/

@@ -1,0 +1,18 @@
+{
+  "name": "agroirriga",
+  "version": "2.0.0",
+  "description": "AgroIrriga – API de telemetria IoT + dashboard (estação, histórico e análise)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "simulador": "node simulador-estacao.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.7.0"
+  },
+  "private": true
+}
